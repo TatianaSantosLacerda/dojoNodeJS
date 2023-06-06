@@ -1,4 +1,4 @@
-import {soma} from './calculadora'
+import { soma } from './calculadora'
 
 test('soma dois valores positivos', () => {
     const resultado = soma(1,3)
@@ -18,3 +18,4 @@ test('soma valores invalidos', () => {
 
     expect(resultado).toBe(NaN)
 })
+
